@@ -1,0 +1,10 @@
+
+
+f = lambda x,z : x+z
+a =f(2,3)
+print(a)
+
+
+
+
+

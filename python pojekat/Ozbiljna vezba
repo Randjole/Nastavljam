@@ -1,0 +1,67 @@
+
+
+import random
+
+pol1 = input("Unesi pol M/Z: ")
+ime = input("Unesi svoje ime: ")
+muski = "M"
+zenski = "Z"
+komp = random.randint(1,100)
+
+
+if pol1 == "M":
+    print("Desi Care", ime) 
+    pol1 = "Care"
+elif pol1 =="Z":
+    print("Desi Carice", ime)
+    pol1 = "Carice"
+    
+else:
+    print("Sta si ti druzee??")
+
+
+
+
+tvoj = int(input("Ukucaj broj: "))
+print("Broj kompa je", komp)
+print("A tvoj", ime, tvoj, "sto znaci")
+
+
+
+
+if tvoj > 100 or tvoj < 1:
+    print("Hej", pol1, "rekli smo samo od 1 do 100")
+    
+    
+
+
+else:
+    if tvoj < komp:
+        print("E GLUPANE GLUPI")
+    elif tvoj==komp:
+        print("NEMA POBEDNIKA", pol1)    
+    else:
+        print("Bravo", pol1, "ti si pobedio")    
+        
+    
+
+
+
+
+        
+    
+        
+    
+
+
+
+  
+
+
+
+   
+
+
+    
+ 
+

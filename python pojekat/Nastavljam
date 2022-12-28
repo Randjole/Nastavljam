@@ -1,0 +1,6 @@
+ 
+ 
+ 
+x =(int(input("Unesite element reda {0:d} kolone {1:d}: ".format(i+1,j+1) ) ) )
+
+print(x)

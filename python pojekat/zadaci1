@@ -1,0 +1,21 @@
+
+lista = []
+
+
+for i in range(2):
+    l1=[]
+    for t in range(2):
+        l1.append(int(input(f'Unesi element reda {i+1} kolone {t+1}: ')))
+    lista.append(l1)
+    print('')
+
+
+
+
+
+
+
+
+
+
+
